@@ -3,6 +3,6 @@
  */
 module.exports = {
   files: "src/**",
-  targets: ["svelte", "react", "customElement", "html", "liquid"],
+  targets: ["svelte", "react", "customElement", "html", "liquid", "lit"],
   dest: "dist",
 };
