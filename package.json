@@ -1,0 +1,16 @@
+{
+  "name": "@mitosis-test/library",
+  "private": true,
+  "scripts": {
+    "start": "watch \"npm run build\" ./src",
+    "build": "mitosis build --c mitosis.config.cjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "@builder.io/mitosis": "latest",
+    "@builder.io/mitosis-cli": "latest"
+  },
+  "devDependencies": {
+    "watch": "^1.0.2"
+  }
+}
